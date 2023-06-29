@@ -1,0 +1,87 @@
+{
+    "results": {
+        "gaming": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 32
+        },
+        "other": {
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1-score": 0.33333333333333337,
+            "support": 32
+        },
+        "price update": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 32
+        },
+        "technical information": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 32
+        },
+        "trading matters": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 32
+        },
+        "accuracy": 0.2,
+        "macro avg": {
+            "precision": 0.04,
+            "recall": 0.2,
+            "f1-score": 0.06666666666666668,
+            "support": 160
+        },
+        "weighted avg": {
+            "precision": 0.04,
+            "recall": 0.2,
+            "f1-score": 0.06666666666666668,
+            "support": 160
+        }
+    },
+    "configs": {
+        "subtask": 2,
+        "model": "large",
+        "templates_dict": {
+            "train": [
+                "Identify the user interest in cryptocurrency from the given tweets: \n\nTweets: {tweets}",
+                "Analyze the given tweets to identify if the user has a particular interest in cryptocurrency. \n\nTweets:{tweets}",
+                "User tweets: \"{tweets}\" \n\nQuestion: What is the user interest in cryptocurrency?",
+                "Given collection of tweets from a user: \"{tweets}\"\n\nWhat is the user interest in cryptocurrency influencers?",
+                "{tweets} \n\nExamine the tweets and determine if the user exhibits an interest in cryptocurrency.",
+                "{tweets} \n\nFrom the provided tweets, ascertain whether the user shows interest in following or engaging with cryptocurrency?",
+                "Evaluate the given tweets to identify the user's interest in cryptocurrency:\n\nTweets: {tweets}",
+                "Given the following user tweets, determine the user interest:\n\nUser tweets: {tweets}",
+                "Consider the tweets provided: \"{tweets}\" \n\nIdentify the user interest?",
+                "A user has posted the following collection of tweets: \"{tweets}\"\n\nWhat is the user's preference in the cryptocurrency?"
+            ],
+            "test": "Identify cryptocurrency influencers interest from given tweets: \n\nTweets: {tweets} "
+        },
+        "subtask_text": "dataset/subtask2/train_text.json",
+        "subtask_truth": "dataset/subtask2/train_truth.json",
+        "subtask_train": "dataset/subtask2/subtask2_train_all.csv",
+        "subtask_train_train": "dataset/subtask2/subtask2_train_train.csv",
+        "subtask_train_test": "dataset/subtask2/subtask2_train_test.csv",
+        "seed": 555,
+        "test_size_subtask1": 16,
+        "test_size_subtask23": 32,
+        "max_source_length": 512,
+        "max_target_length": 3,
+        "auto_find_batch_size": true,
+        "learning_rate": 1e-05,
+        "num_train_epochs": 10,
+        "label_pad_token_id": -100,
+        "device": "cuda",
+        "model_input_path": "../LLMs4OL/assets/LLMs/flan-t5-large",
+        "model_output_path": "assets/subtask2-large",
+        "output_log_dir": "assets/subtask2-large-log",
+        "result_file": "results/Flan-T5-LARGE-subtask-2-2023-05-23 16:19:15.json",
+        "result_multiple_file": "results/Flan-T5-LARGE-multple-subtask-2-2023-05-23 16:19:15.json",
+        "f": null
+    }
+}

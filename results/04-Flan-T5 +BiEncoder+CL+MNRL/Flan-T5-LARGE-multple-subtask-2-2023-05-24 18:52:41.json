@@ -1,0 +1,104 @@
+{
+    "results": {
+        "gaming": {
+            "precision": 0.7575757575757576,
+            "recall": 0.78125,
+            "f1-score": 0.7692307692307692,
+            "support": 32
+        },
+        "other": {
+            "precision": 0.5,
+            "recall": 0.4375,
+            "f1-score": 0.4666666666666667,
+            "support": 32
+        },
+        "price update": {
+            "precision": 0.6666666666666666,
+            "recall": 0.5625,
+            "f1-score": 0.6101694915254238,
+            "support": 32
+        },
+        "technical information": {
+            "precision": 0.6071428571428571,
+            "recall": 0.53125,
+            "f1-score": 0.5666666666666667,
+            "support": 32
+        },
+        "trading matters": {
+            "precision": 0.5227272727272727,
+            "recall": 0.71875,
+            "f1-score": 0.6052631578947368,
+            "support": 32
+        },
+        "accuracy": 0.60625,
+        "macro avg": {
+            "precision": 0.6108225108225108,
+            "recall": 0.60625,
+            "f1-score": 0.6035993503968526,
+            "support": 160
+        },
+        "weighted avg": {
+            "precision": 0.6108225108225108,
+            "recall": 0.60625,
+            "f1-score": 0.6035993503968526,
+            "support": 160
+        }
+    },
+    "configs": {
+        "subtask": null,
+        "model": null,
+        "templates_dict": {
+            "train": [
+                "Identify the user interest in cryptocurrency from the given tweets: \n\nTweets: {tweets}",
+                "Analyze the given tweets to identify if the user has a particular interest in cryptocurrency. \n\nTweets:{tweets}",
+                "User tweets: \"{tweets}\" \n\nQuestion: What is the user interest in cryptocurrency?",
+                "Given collection of tweets from a user: \"{tweets}\"\n\nWhat is the user interest in cryptocurrency influencers?",
+                "{tweets} \n\nExamine the tweets and determine if the user exhibits an interest in cryptocurrency.",
+                "{tweets} \n\nFrom the provided tweets, ascertain whether the user shows interest in following or engaging with cryptocurrency?",
+                "Evaluate the given tweets to identify the user's interest in cryptocurrency:\n\nTweets: {tweets}",
+                "Given the following user tweets, determine the user interest:\n\nUser tweets: {tweets}",
+                "Consider the tweets provided: \"{tweets}\" \n\nIdentify the user interest?",
+                "A user has posted the following collection of tweets: \"{tweets}\"\n\nWhat is the user's preference in the cryptocurrency?"
+            ],
+            "test": "Identify cryptocurrency influencers interest from given tweets: \n\nTweets: {tweets} "
+        },
+        "hypothesis_template": "This influencer interest is a {}",
+        "tasks_stats": {
+            "N": 32,
+            "C": 5,
+            "NG": 5
+        },
+        "candidate_labels": [
+            "technical information",
+            "price update",
+            "trading matters",
+            "gaming",
+            "other"
+        ],
+        "subtask_text": "dataset/subtask2/train_text.json",
+        "subtask_truth": "dataset/subtask2/train_truth.json",
+        "subtask_train": "dataset/subtask2/subtask2_train_all.csv",
+        "subtask_train_train": "dataset/subtask2/subtask2_train_train.csv",
+        "subtask_train_test": "dataset/subtask2/subtask2_train_test.csv",
+        "seed": 555,
+        "test_size_subtask1": 16,
+        "test_size_subtask23": 32,
+        "max_source_length": 512,
+        "max_target_length": 3,
+        "auto_find_batch_size": true,
+        "learning_rate": 1e-05,
+        "num_train_epochs": 10,
+        "label_pad_token_id": -100,
+        "device": "cuda",
+        "model_input_path": "../LLMs4OL/assets/LLMs/flan-t5-large",
+        "model_output_path": "assets/subtask2-large",
+        "output_log_dir": "assets/subtask2-large-log",
+        "result_file": "results/Flan-T5-LARGE-subtask-2-2023-05-24 18:52:41.json",
+        "result_multiple_file": "results/Flan-T5-LARGE-multple-subtask-2-2023-05-24 18:52:41.json",
+        "sbert_model_output_path": "assets/sbert-subtask2-large",
+        "sbert_num_epochs": 5,
+        "sbert_margin": 0.5,
+        "sbert_batch_size": 2,
+        "f": "/nfs/home/babaeih/.local/share/jupyter/runtime/kernel-34eaac9e-a344-43bd-88ad-34ca1b7b831d.json"
+    }
+}

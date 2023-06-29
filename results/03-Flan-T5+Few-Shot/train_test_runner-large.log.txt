@@ -1,0 +1,87 @@
+SubTask 1
+Run Train for Model: Flan-T5-large on SubTask=1:
+{'loss': 1.6154, 'learning_rate': 4.9900000000000005e-06, 'epoch': 1.25}
+{'loss': 0.6792, 'learning_rate': 0.0, 'epoch': 2.5}
+{'loss': 0.6384, 'learning_rate': 0.0, 'epoch': 3.75}
+{'loss': 0.6588, 'learning_rate': 0.0, 'epoch': 5.0}
+{'loss': 0.6291, 'learning_rate': 0.0, 'epoch': 6.25}
+{'loss': 0.5979, 'learning_rate': 0.0, 'epoch': 7.5}
+{'loss': 0.6243, 'learning_rate': 0.0, 'epoch': 8.75}
+{'loss': 0.6114, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1399.1008, 'train_samples_per_second': 5.718, 'train_steps_per_second': 2.859, 'train_loss': 0.7568164672851563, 'epoch': 10.0}
+LOGS: TrainOutput(global_step=4000, training_loss=0.7568164672851563, metrics={'train_runtime': 1399.1008, 'train_samples_per_second': 5.718, 'train_steps_per_second': 2.859, 'train_loss': 0.7568164672851563, 'epoch': 10.0})
+SAVING MODEL ..... 
+MODEL trained and saved into: assets/subtask1-large
+Run Test for Model: Flan-T5-large on SubTask=1:
+Evaluating Model: assets/subtask1-large
+Dataset    Path : dataset/subtask1/subtask1_train_test.csv
+F1-Score (Macro) is: 0.3647568523430592
+Storing results in: results/Flan-T5-LARGE-subtask-1-2023-05-25 17:11:50.json
+Run Multiple-Test for Model: Flan-T5-large on SubTask=1:
+Evaluating Model: assets/subtask1-large
+Dataset    Path : dataset/subtask1/subtask1_train_test.csv
+F1-Score (Macro) is: 0.3458367397497832
+Storing results in: results/Flan-T5-LARGE-multple-subtask-1-2023-05-25 17:12:43.json
+-----------------------------------------------------------
+SubTask 2
+Run Train for Model: Flan-T5-large on SubTask=2:
+{'loss': 1.2306, 'learning_rate': 7.495000000000001e-06, 'epoch': 0.62}
+{'loss': 0.4187, 'learning_rate': 4.9950000000000005e-06, 'epoch': 1.25}
+{'loss': 0.2825, 'learning_rate': 2.4950000000000003e-06, 'epoch': 1.88}
+{'loss': 0.2038, 'learning_rate': 0.0, 'epoch': 2.5}
+{'loss': 0.2255, 'learning_rate': 0.0, 'epoch': 3.12}
+{'loss': 0.2455, 'learning_rate': 0.0, 'epoch': 3.75}
+{'loss': 0.1859, 'learning_rate': 0.0, 'epoch': 4.38}
+{'loss': 0.1932, 'learning_rate': 0.0, 'epoch': 5.0}
+{'loss': 0.2059, 'learning_rate': 0.0, 'epoch': 5.62}
+{'loss': 0.1932, 'learning_rate': 0.0, 'epoch': 6.25}
+{'loss': 0.1991, 'learning_rate': 0.0, 'epoch': 6.88}
+{'loss': 0.2205, 'learning_rate': 0.0, 'epoch': 7.5}
+{'loss': 0.1958, 'learning_rate': 0.0, 'epoch': 8.12}
+{'loss': 0.2099, 'learning_rate': 0.0, 'epoch': 8.75}
+{'loss': 0.2031, 'learning_rate': 0.0, 'epoch': 9.38}
+{'loss': 0.2028, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2790.034, 'train_samples_per_second': 5.735, 'train_steps_per_second': 2.867, 'train_loss': 0.28849689960479735, 'epoch': 10.0}
+LOGS: TrainOutput(global_step=8000, training_loss=0.28849689960479735, metrics={'train_runtime': 2790.034, 'train_samples_per_second': 5.735, 'train_steps_per_second': 2.867, 'train_loss': 0.28849689960479735, 'epoch': 10.0})
+SAVING MODEL ..... 
+MODEL trained and saved into: assets/subtask2-large
+Run Test for Model: Flan-T5-large on SubTask=2:
+Evaluating Model: assets/subtask2-large
+Dataset    Path : dataset/subtask2/subtask2_train_test.csv
+F1-Score (Macro) is: 0.5258610329992549
+Storing results in: results/Flan-T5-LARGE-subtask-2-2023-05-25 18:01:31.json
+Run Multiple-Test for Model: Flan-T5-large on SubTask=2:
+Evaluating Model: assets/subtask2-large
+Dataset    Path : dataset/subtask2/subtask2_train_test.csv
+F1-Score (Macro) is: 0.5014880668443219
+Storing results in: results/Flan-T5-LARGE-multple-subtask-2-2023-05-25 18:02:32.json
+-----------------------------------------------------------
+SubTask 3
+Run Train for Model: Flan-T5-large on SubTask=3:
+{'loss': 1.1004, 'learning_rate': 6.868750000000001e-06, 'epoch': 0.78}
+{'loss': 0.3739, 'learning_rate': 3.7437500000000004e-06, 'epoch': 1.56}
+{'loss': 0.2673, 'learning_rate': 6.1875e-07, 'epoch': 2.34}
+{'loss': 0.2911, 'learning_rate': 0.0, 'epoch': 3.12}
+{'loss': 0.2296, 'learning_rate': 0.0, 'epoch': 3.91}
+{'loss': 0.2546, 'learning_rate': 0.0, 'epoch': 4.69}
+{'loss': 0.2488, 'learning_rate': 0.0, 'epoch': 5.47}
+{'loss': 0.2457, 'learning_rate': 0.0, 'epoch': 6.25}
+{'loss': 0.2536, 'learning_rate': 0.0, 'epoch': 7.03}
+{'loss': 0.2247, 'learning_rate': 0.0, 'epoch': 7.81}
+{'loss': 0.262, 'learning_rate': 0.0, 'epoch': 8.59}
+{'loss': 0.2401, 'learning_rate': 0.0, 'epoch': 9.38}
+{'train_runtime': 2228.5373, 'train_samples_per_second': 5.744, 'train_steps_per_second': 2.872, 'train_loss': 0.3289132308959961, 'epoch': 10.0}
+LOGS: TrainOutput(global_step=6400, training_loss=0.3289132308959961, metrics={'train_runtime': 2228.5373, 'train_samples_per_second': 5.744, 'train_steps_per_second': 2.872, 'train_loss': 0.3289132308959961, 'epoch': 10.0})
+SAVING MODEL ..... 
+MODEL trained and saved into: assets/subtask3-large
+Run Test for Model: Flan-T5-large on SubTask=3:
+Evaluating Model: assets/subtask3-large
+Dataset    Path : dataset/subtask3/subtask3_train_test.csv
+F1-Score (Macro) is: 0.7268100551655874
+Storing results in: results/Flan-T5-LARGE-subtask-3-2023-05-25 18:43:10.json
+Run Multiple-Test for Model: Flan-T5-large on SubTask=3:
+Evaluating Model: assets/subtask3-large
+Dataset    Path : dataset/subtask3/subtask3_train_test.csv
+F1-Score (Macro) is: 0.7176838810641628
+Storing results in: results/Flan-T5-LARGE-multple-subtask-3-2023-05-25 18:44:06.json
+-----------------------------------------------------------

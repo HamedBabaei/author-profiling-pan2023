@@ -1,0 +1,18 @@
+Run Test for Model: RandomModel on SubTask=1:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-NONE
+Dataset    Path : dataset/subtask1/subtask1_train_test.csv
+F1-Score (Macro) is: 0.23074434211955436
+Storing results in: results/Flan-T5-NONE-multple-subtask-1-2023-05-23 17:13:51.json
+-----------------------------------------------------------
+Run Test for Model: RandomModel on SubTask=2:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-NONE
+Dataset    Path : dataset/subtask2/subtask2_train_test.csv
+F1-Score (Macro) is: 0.17522367451762633
+Storing results in: results/Flan-T5-NONE-multple-subtask-2-2023-05-23 17:13:54.json
+-----------------------------------------------------------
+Run Test for Model: RandomModel on SubTask=3:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-NONE
+Dataset    Path : dataset/subtask3/subtask3_train_test.csv
+F1-Score (Macro) is: 0.31171106414401006
+Storing results in: results/Flan-T5-NONE-multple-subtask-3-2023-05-23 17:13:56.json
+-----------------------------------------------------------

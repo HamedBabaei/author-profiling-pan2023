@@ -1,0 +1,45 @@
+SubTask 1
+Run Train for Model: SBERT-Flan-T5-large on SubTask=1, SBERT-FSL=True:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask1/subtask1_train_train.csv
+size of CL:3800 Size of MNRL:1600
+Training Model Path: assets/subtask1-large
+SAVING MODEL ..... 
+MODEL trained and saved into: assets/sbert-subtask1-large-fsl
+Run Test for Model: SBERT-Flan-T5-large on SubTask=1,  SBERT-FSL=True:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask1/subtask1_train_test.csv
+Testing Model Path: assets/sbert-subtask1-large-fsl
+F1-Score (Macro) is: 0.4305634987384357
+Storing results in: results/Flan-T5-LARGE-multple-subtask-1-2023-05-25 23:33:03.json
+-----------------------------------------------------------
+SubTask 2
+Run Train for Model: SBERT-Flan-T5-large on SubTask=2, SBERT-FSL=True:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask2/subtask2_train_train.csv
+size of CL:5600 Size of MNRL:3200
+Training Model Path: assets/subtask2-large
+SAVING MODEL ..... 
+MODEL trained and saved into: assets/sbert-subtask2-large-fsl
+Run Test for Model: SBERT-Flan-T5-large on SubTask=2,  SBERT-FSL=True:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask2/subtask2_train_test.csv
+Testing Model Path: assets/sbert-subtask2-large-fsl
+F1-Score (Macro) is: 0.6076639194139195
+Storing results in: results/Flan-T5-LARGE-multple-subtask-2-2023-05-26 01:06:19.json
+-----------------------------------------------------------
+SubTask 3
+Run Train for Model: SBERT-Flan-T5-large on SubTask=3, SBERT-FSL=True:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask3/subtask3_train_train.csv
+size of CL:3680 Size of MNRL:2560
+Training Model Path: assets/subtask3-large
+SAVING MODEL ..... 
+MODEL trained and saved into: assets/sbert-subtask3-large-fsl
+Run Test for Model: SBERT-Flan-T5-large on SubTask=3,  SBERT-FSL=True:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask3/subtask3_train_test.csv
+Testing Model Path: assets/sbert-subtask3-large-fsl
+F1-Score (Macro) is: 0.7333811428421563
+Storing results in: results/Flan-T5-LARGE-multple-subtask-3-2023-05-26 02:19:39.json
+-----------------------------------------------------------

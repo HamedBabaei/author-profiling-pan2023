@@ -1,0 +1,21 @@
+SubTask 1
+Run Test for Model: Flan-T5-large on SubTask=1:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask1/subtask1_train_test.csv
+F1-Score (Macro) is: 0.16615384615384615
+Storing results in: results/Flan-T5-LARGE-multple-subtask-1-2023-05-23 16:15:11.json
+-----------------------------------------------------------
+SubTask 2
+Run Test for Model: Flan-T5-large on SubTask=2:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask2/subtask2_train_test.csv
+F1-Score (Macro) is: 0.06666666666666668
+Storing results in: results/Flan-T5-LARGE-multple-subtask-2-2023-05-23 16:19:15.json
+-----------------------------------------------------------
+SubTask 3
+Run Test for Model: Flan-T5-large on SubTask=3:
+Evaluating Model: ../LLMs4OL/assets/LLMs/flan-t5-large
+Dataset    Path : dataset/subtask3/subtask3_train_test.csv
+F1-Score (Macro) is: 0.2607848232848233
+Storing results in: results/Flan-T5-LARGE-multple-subtask-3-2023-05-23 16:27:20.json
+-----------------------------------------------------------
