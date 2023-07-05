@@ -10,9 +10,9 @@ The objective of author profiling (AP) is to study the characteristics of author
 
 ## Contents
 
-- `data/`: Contains the datasets used in the paper.
-- `models/`: Contains the code for the Bi-Encoder and Large Language Model used in the paper.
-- `experiments/`: Contains the code for the experiments conducted in the paper.
+- `dataset/`: Contains the datasets used in the paper.
+- `assets/`: Contains the models checkpoints used in the paper.
+- `visualization/`: Contains the code for the visualizing expriments in the paper.
 - `results/`: Contains the results of the experiments.
 
 ## Requirements
