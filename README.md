@@ -63,6 +63,29 @@ pip install -r requirements.txt
    ```  
 
 
+
+## Contributions
+
+Contributions to this repository are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a PR.
+
+### How to Contribute
+
+1. Fork the repository.
+2. Create a new branch for your changes: `git checkout -b my-new-branch`
+3. Make your changes and commit them: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-branch`
+5. Submit a pull request.
+
+### Guidelines
+
+- Please make sure your code follows the PEP 8 style guide.
+- Include tests for any new functionality you add.
+- Make sure your code is well-documented.
+- If you're adding a new dataset, please include a README file with information about the dataset and its source.
+- If you're adding a new model or experiment, please include a README file with information about the model or experiment and how to run it.
+
+Thank you for your contributions!
+
 ## Citation
 
 If you use this code or data in your research, please cite the following paper:
