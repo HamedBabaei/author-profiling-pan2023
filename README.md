@@ -1,23 +1,23 @@
 # Leveraging Large Language Models with Multiple Loss Learners for Few-Shot Author Profiling
 
-This repository contains the code and data for the paper "Leveraging Large Language Models with Multiple Loss Learners for Few-Shot Author Profiling" by Hamed Babaei Giglou, Mostafa Rahgouy, Jennifer D’Souza, Milad Molazadeh Oskuee, Hadi Bayrami Asl Tekanlou, and Cheryl D Seals. The paper was presented at the Fourteenth International Conference of the CLEF Association (CLEF 2023).
+This repository contains the code and data for the paper "Leveraging Large Language Models with Multiple Loss Learners for Few-Shot Author Profiling" by `Hamed Babaei Giglou, Mostafa Rahgouy, Jennifer D’Souza, Milad Molazadeh Oskuee, Hadi Bayrami Asl Tekanlou, and Cheryl D Seals`. The paper was presented at the 14th International Conference of the CLEF Association (CLEF 2023).
 
 ## Abstract
 
 The objective of author profiling (AP) is to study the characteristics of authors through the analysis of how language is exchanged among people. Studying these attributes sometimes is challenging due to the lack of annotated data. This indicates the significance of studying AP from a low-resource perspective. This year at AP@PAN 2023 the major interest raised in profiling cryptocurrency influencers with a few-shot learning technique to analyze the effectiveness of advanced approaches in dealing with new tasks from a low-resource perspective.
 
-![File](images/main-diagram.png)
+<!---![File](images/main-diagram.png)-->
 
 ## Contents
 
 - `dataset/`: Contains the datasets used in the paper.
-- `assets/`: Contains the models checkpoints used in the paper.
-- `visualization/`: Contains the code for the visualizing expriments in the paper.
+- `assets/`: Contains the model checkpoints used in the paper.
+- `visualization/`: Contains the code for the visualizing experiments in the paper.
 - `results/`: Contains the results of the experiments.
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.9 or higher
 - PyTorch 1.9.x or higher
 - Transformers 4.3.x or higher
 
@@ -63,7 +63,7 @@ pip install -r requirements.txt
    ```  
 
 
-
+<!--
 ## Contributions
 
 Contributions to this repository are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a PR.
@@ -85,7 +85,7 @@ Contributions to this repository are welcome! If you find any issues or have sug
 - If you're adding a new model or experiment, please include a README file with information about the model or experiment and how to run it.
 
 Thank you for your contributions!
-
+-->
 ## Citation
 
 If you use this code or data in your research, please cite the following paper:
@@ -96,8 +96,6 @@ If you use this code or data in your research, please cite the following paper:
 @InProceedings{giglou:2023,
   author =                   {Hamed Babaei Giglou, Mostafa Rahgouy, Jennifer D’Souza, Milad Molazadeh Oskuee , Hadi Bayrami Asl Tekanlou and Cheryl D Seals},
   booktitle =                {{CLEF 2023 Labs and Workshops, Notebook Papers}},
-  crossref =                 {pan:2023},
-  editor =                   {Hamed Babaei Giglou, Mostafa Rahgouy, Jennifer D’Souza, Milad Molazadeh Oskuee , Hadi Bayrami Asl Tekanlou and Cheryl D Seals},
   month =                    sep,
   publisher =                {CEUR-WS.org},
   title =                    {{Leveraging Large Language Models with Multiple Loss Learners for Few-Shot Author Profiling}},
