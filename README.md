@@ -2,26 +2,30 @@
 
 This repository contains the code and data for the paper "Leveraging Large Language Models with Multiple Loss Learners for Few-Shot Author Profiling" by `Hamed Babaei Giglou, Mostafa Rahgouy, Jennifer D’Souza, Milad Molazadeh Oskuee, Hadi Bayrami Asl Tekanlou, and Cheryl D Seals`. The paper was presented at the 14th International Conference of the CLEF Association (CLEF 2023).
 
-## Abstract
-
 The objective of author profiling (AP) is to study the characteristics of authors through the analysis of how language is exchanged among people. Studying these attributes sometimes is challenging due to the lack of annotated data. This indicates the significance of studying AP from a low-resource perspective. This year at AP@PAN 2023 the major interest raised in profiling cryptocurrency influencers with a few-shot learning technique to analyze the effectiveness of advanced approaches in dealing with new tasks from a low-resource perspective.
 
-<!---![File](images/main-diagram.png)-->
+## Architecture of Proposed Framework
 
-## Contents
+<img src="images/main-diagram.png"
+     alt="Architecture of Proposed Framework"
+     style="position:center; width:25cm; height:16cm" />
+     
+## How to use this repository
+
+### Directories
 
 - `dataset/`: Contains the datasets used in the paper.
 - `assets/`: Contains the model checkpoints used in the paper.
 - `visualization/`: Contains the code for the visualizing experiments in the paper.
 - `results/`: Contains the results of the experiments.
 
-## Requirements
+### Requirements
 
 - Python 3.9 or higher
 - PyTorch 1.9.x or higher
 - Transformers 4.3.x or higher
 
-## Usage
+### Usage
 
 1. Clone the repository:
 
@@ -86,11 +90,10 @@ Contributions to this repository are welcome! If you find any issues or have sug
 
 Thank you for your contributions!
 -->
+
 ## Citation
 
-If you use this code or data in your research, please cite the following paper:
-
-
+If you use this code in your research, please cite the following paper:
 
 ```bib
 @InProceedings{giglou:2023,
