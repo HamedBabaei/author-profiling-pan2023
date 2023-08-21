@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Babaei Giglou"
+  given-names: "Hamed"
+title: "author-profiling-pan2023"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2023-08-21
+url: "https://github.com/HamedBabaei/author-profiling-pan2023"
