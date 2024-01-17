@@ -1,3 +1,4 @@
+# Python version: 3.10.10
 from utils import load_truth, load_text
 from config import BaseConfig
 import pandas
